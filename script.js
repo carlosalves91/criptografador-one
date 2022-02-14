@@ -45,7 +45,7 @@ function descriptografa(){
     return textoDescriptografado;
 }
 
-// Passo - Habilitar botão de copiar e ao copiar, limpar a caixa de texto
+// Passo 04 - Habilitar botão de copiar e ao copiar, limpar a caixa de texto
 
 var botaoCopiar = document.querySelector("#btn-copy");
 botaoCopiar.onclick = copiarTexto;
